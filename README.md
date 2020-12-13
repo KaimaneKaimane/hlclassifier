@@ -2,7 +2,7 @@
 Solution for the assignment found at https://github.com/Rocketloop/assignment-machine-learning-nlp
 
 Restrictions:
-* Local system was running a Windows 10
+* Local system was running Windows 10
 * Solution was computed on a machine without cuda support for GPU training and a maximum of 16GB RAM
 * Tested on Windows 10 on a WSL2 Ubuntu setup
 
