@@ -1,0 +1,13 @@
+version: '2'
+services:
+  train:
+    working_dir: /opt/project/hlclassifier
+    environment:
+    - PYTHONPATH=/opt/project/hlclassifier
+    container_name: train
+    image: hlclassifier/base:latest
+    command: python ./code/train.py
+    volumes:
+      - ..:/opt/project
+    ports:
+      - 8080:8080

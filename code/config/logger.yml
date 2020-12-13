@@ -1,0 +1,23 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+    simpleFormater:
+        format: '[hlclassifier] - %(levelname)s: %(asctime)s.%(msecs)3d - %(name)s - %(message)s'
+        datefmt: '%Y-%m-%d %H:%M:%S'
+
+# define the output streams level overwrites root level
+handlers:
+    console:
+        class: logging.StreamHandler
+        formatter: simpleFormater
+        stream: ext://sys.stdout
+
+loggers:
+    clogger:
+        handlers: [console]
+    tensorflow:
+        handlers: [console]
+
+root:
+    level: INFO
+    handlers: [console]

@@ -1,0 +1,7 @@
+type: object
+properties:
+  headline:
+    type: string
+additionalProperties: False
+required:
+  - headline
