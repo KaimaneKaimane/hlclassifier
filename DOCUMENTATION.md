@@ -61,7 +61,7 @@ represented classes. The recall and precision for the other classes is often tim
 During my research I also had a look at the discussions on the kaggle dataset and seemingly an accuracy around 60-70%
 was a good result being able to use all the data for the prediction.
 
-**_NOTE:_** I also tried my methods on a smaller dataset with less categories to see how it performs on other data. The
+**_NOTE:_** I also tried my methods on a larger dataset with less categories to see how it performs on other data. The
 dataset can be found here (https://www.kaggle.com/uciml/news-aggregator-dataset) but is also included in the repository.
 On this set all my methods performed much better with accuracies up to 95%.
 
